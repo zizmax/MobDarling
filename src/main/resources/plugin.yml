@@ -1,0 +1,12 @@
+name: MobDarling
+version: ${project.version}
+main: mobdarling.mobdarling.MobDarling
+api-version: 1.13
+authors: [zizmax]
+description: Tame your monsters
+load: STARTUP
+commands:
+  mobdarling:
+    description: MobDarling root command
+    usage: /mobdarling
+    aliases: [md]
